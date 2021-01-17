@@ -73,6 +73,7 @@ disqusShortname = "yourdiscussshortname"
         [languages.en.params]
             author = "Hyeoksu Lee"
             info = "Graduate Student"
+            info2= "Seoul National University"
             description = "Hyeoksu Lee's personal website"
             keywords = "blog,developer,personal"
 
