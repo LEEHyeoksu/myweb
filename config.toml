@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "Yusuke Ishimi"
+baseurl = "http://leehyeoksu.github.io"
+title = "Hyeoksu Lee"
 
 theme = "coder-portfolio"
 
@@ -15,15 +15,12 @@ pygmentsUseClasses = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "Yusuke Ishimi"
-    description = "Yusuke Ishimi's personal website"
+    author = "Hyeoksu Lee"
+    description = "Hyeoksu Lee's personal website"
     keywords = "blog,developer,personal"
-    info = "WEB AND APPS ENGINEER"
-    avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
-    fixedbarContent = "Do you want to know me more private?→"
-    fixedbarContentAfter = "Thank You! Please share it if you like it→"
-
+    info = "Graduate Student"
+    avatarurl = "images/me_crop.jpg"
+    
     hideCredits = false
     hideCopyright = false
 
@@ -31,11 +28,11 @@ disqusShortname = "yourdiscussshortname"
     snsShare = true
     # Popular sns share
     # if you want add sns. please message!
-    enableTwitterShare = true
-    enableFacebookShare = true
-    enableHatenaShare = true
-    enableLineShare = true
-    enableLinkedInShare = true
+    enableTwitterShare = false
+    enableFacebookShare = false
+    enableHatenaShare = false
+    enableLineShare = false
+    enableLinkedInShare = false
 
     thumbnail = "images/tn.png"
 
@@ -51,36 +48,32 @@ disqusShortname = "yourdiscussshortname"
     langseparator = "|"
 
 [[params.social]]
+    name = "E-Mail"
+    icon = "fa fa-envelope"
+    weight = 1
+    url = "mailto:hyeoksu.lee@gmail.com"
+[[params.social]]
     name = "Github"
     icon = "fab fa-github"
-    weight = 1
-    url = "https://github.com/naro143/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
     weight = 2
-    url = "https://twitter.com/naro143/"
+    url = "https://github.com/LEEHyeoksu/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 3
-    url = "https://www.linkedin.com/in/naro143/"
-[[params.social]]
-    name = "LinkedIn"
-    weight = 4
-    url = "https://www.linkedin.com/in/naro143/"
+    url = "https://www.linkedin.com/in/hyeoksu-lee-759778130/"
 
 [languages]
     [languages.en]
         languagecode = "en"
         languagename = "English" # The language name to be displayed in the selector.
-        title = "Yusuke Ishimi"
+        title = "Hyeoksu Lee"
 
         # You can configure the theme parameter for each language.
         [languages.en.params]
-            author = "Yusuke Ishimi"
-            info = "WEB AND APPS ENGINEER"
-            description = "Yusuke Ishimi's personal website"
+            author = "Hyeoksu Lee"
+            info = "Graduate Student"
+            description = "Hyeoksu Lee's personal website"
             keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
@@ -89,47 +82,7 @@ disqusShortname = "yourdiscussshortname"
                 name = "About"
                 weight = 1.0
                 url = "about"
-
-            [[languages.en.menu.main]]
-                name = "Blog"
-                weight = 2.0
-                url = "posts"
-
             [[languages.en.menu.main]]
                 name = "Projects"
-                weight = 3
-                url = "projects"
-            [[languages.en.menu.main]]
-                name = "Contact me"
-                weight = 5
-                url = "contact"
-
-
-    [languages.ja]
-        languagecode = "ja"
-        languagename = "Japanese"
-        title = "石見 優丞"
-
-        [languages.ja.params]
-            author = "石見 優丞"
-            description = "石見のサイト"
-            keywords = "blog,developer,strona domowa"
-            info = "WEBとアプリのエンジニア"
-
-        [languages.ja.menu]
-            [[languages.ja.menu.main]]
-                name = "テーマについて"
-                weight = 1.0
-                url = "ja/about"
-            [[languages.ja.menu.main]]
-                name = "ブログ"
                 weight = 2.0
-                url = "ja/posts"
-            [[languages.ja.menu.main]]
-                name = "プロジェクト"
-                weight = 3
-                url = "ja/projects"
-            [[languages.ja.menu.main]]
-                name = "お問い合わせ"
-                weight = 5
-                url = "ja/contact"
+                url = "projects"
