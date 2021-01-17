@@ -1,4 +1,4 @@
-baseurl = "http://github.com/LEEHyeoksu/leehyeoksu.github.io/"
+baseurl = "http://github.com/LEEHyeoksu/leehyeoksu.github.io"
 title = "Hyeoksu Lee"
 
 theme = "coder-portfolio"
